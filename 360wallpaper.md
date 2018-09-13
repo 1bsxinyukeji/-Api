@@ -3,7 +3,10 @@
 - [按关键字搜索壁纸](#keywords)
 - [获取今日热门搜索](#search-hot)
 
-
+## 获取最近更新的壁纸
+```
+http://wallpaper.apc.360.cn/index.php?c=WallPaper&a=getAppsByOrder&order=create_time&start=【偏移量，从0开始】&count=【加载张数】&from=360chrome  
+```
 <h2 id="category">获取壁纸类别</h2>
 
 url：http://wallpaper.apc.360.cn/index.php?c=WallPaperAndroid&a=getAllCategories
